@@ -1,0 +1,101 @@
+/* /* .state{
+  position: fixed;
+}
+*{
+  background: aqua;
+}
+.state button{
+  border: 1px solid black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background:blue;
+} */
+
+
+/* using array*/
+
+/*.h1style{
+  padding: 20px;
+  background: aqua;
+  border: 1px solid black;
+  border-radius: 40px;
+  position: relative;
+  left: 12rem;
+}
+.btnstyle{
+  padding: 20px;
+  width: 100px;
+  background: orange;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: relative;
+  left: 25rem;
+}
+
+.update{
+  padding: 3rem;
+  background-color: orange;
+  border-radius: 40px;
+  position: relative;
+  left: 5rem;
+  font-size: 1.5rem;
+}
+.up button{
+  pad: 1rem;
+  background: blue;
+  position: relative;
+  left: 17rem;
+  top: 2rem;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+} */
+
+
+/*for use ref*/
+
+.uncontroled{
+  padding: 1rem;
+  background: aqua;
+  display: flex;
+  flex-direction: column;
+  transform: translate(100%,0%);
+  width: 600px;
+  
+}
+*{
+  background: grey;
+}
+.uncontroled input{
+  padding: 2rem;
+  color: black;
+  background: #ffffff;
+  text-align: start;
+  margin-top: 1rem;
+}
+.uncontroled label{
+  background: transparent;
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
+.btn{
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  padding: 1rem;
+  font-size: 1.5rem;
+
+}
+.para{
+  padding: 0rem;
+  border: 1px solid black;
+  margin-top: 2rem;
+  background: orange;
+  transform: translate(100%,0%);
+  line-height: 10px;
+  
+}
+.para p{
+  background-color: transparent;
+  font-weight: bold;
+}
